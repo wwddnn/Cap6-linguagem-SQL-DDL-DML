@@ -13,7 +13,7 @@ CREATE TABLE table_name (
 obs buscar no google por ''CREATE table statement postgress'' para ver a estrutura completa do comando. serve para sempre que eu quiser saber mais de um comando. nesse caso consigo ver a estrutura do meu comando CREATE. obs tudo que esta nos colchetes são comandos adicionais. consultar nos sites.
 
 
-- obs datatype: os mais usuais são: 
+### obs datatype: os mais usuais são: 
 - CHAR(n) tem tamanho fixo. até 255 caracteres. armazena 4 bytes. 
 - VARCHAR(n) tem tamanho variável. até 65535 caracteres. ocupa somente o tamanho do campo.
 - TEXT é variável. até 65535 bytes. usado pra guardar texto ou uma descrição.
@@ -32,7 +32,7 @@ obs buscar no google por ''CREATE table statement postgress'' para ver a estrutu
 - TIMESTAMP é a junção do date com o time. tem 8 bytes. formato YYYY-MM--DD HH:MI:SS
 
 
-- Restrições de integridade:
+### Restrições de integridade:
 - Restrição NOT NULL : colunas de preenchimento obrigatório. proibido valor nulo. tem que ser preenchido.
 - Restrição DEFAULT : associa um valor default para um atributo caso nenhum outro valor seja especificado.
 
