@@ -99,6 +99,30 @@ CREATE TABLE fone_cliente (
 obs. comentário do código acima, na tabela cliente meu id e nome são chave primária. já na tabela fone_cliente meu id e fone são chave primárias, e vou citar esse id como a chave estrangeira, tem que usar a palavra reservada 'references'. nesse caso o id é uma chave primária e também uma chave estrangeira. 
 
 
+### Propriedades da chave estrangeira:
+
+- RESTRICT: não permite que um registro seja deletado caso alguma tupla esteja referenciando. (esse é o padrão).
+
+- CASCADE: deleta o registro de todas as tuplas que referenciam o registro. (usar essa cláusula com cuidado! atenção).
+
+obs. por padrão, o banco de dados usa a cláusula RESTRICT caso nenhuma seja especificada.
+
+exemplo:
+CREATE TABLE cliente (
+	id int PRIMARY KEY, 
+	nome varchar(20) NOT NULL
+);
+
+CREATE TABLE fone_cliente (
+	id int;
+	fone varchar(12);
+	PRIMARY KEY(id, fone),
+	FOREIGN KEY(id) references cliente(id)
+	ON DELETE RESTRICT
+);
+
+obs. comentário sobre o código acima, a linha On Delete Restrict é para informarmos que esse dado é sensível e não pode deletar. eu coloco abaixo da chave estrangeira para dizer que esse dado que esta se referindo a tupla, não pode ser apagado. na definição da tabela estamos definindo isso de forma explícita. posso usar também o On Delete Cascade, nesse caso vai poder sim deletar as tuplas associadas.
+
 
 
 
