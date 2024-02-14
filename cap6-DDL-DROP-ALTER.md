@@ -11,8 +11,8 @@ DROP TABLE tb_funcionario;
 ### Remove uma database: obs. vai deletar o banco de dados empresa.
 DROP DATABASE empresa;
 
+# SQL: DDL - ALTER.
 ## ALTERAR COM COMANDO ALTER:
-## DDL : Comando ALTER.
 Altera a estrutura da tabela. criar um novo campo, remover um campo, definir um campo com chave primária, etc.
 
 ### ADICIONA E REMOVE UMA NOVA COLUNA PARA A TABELA: obs. vai adicionar uma coluna na tabela.
