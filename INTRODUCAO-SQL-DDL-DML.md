@@ -15,9 +15,9 @@ No modelo físico falamos de linguagem SQL(Structured query language-linguagem d
 SQL tem origem na linguagem ''SEQUEL IBM'' em 1973. Depois veio o ''padrão ANSI'' para unificar as linguagens SQL. Então todos os banco de dados vão usar o SQL padrão, pode variar um pouco somente.
 
 ## SQL se divide em:
-DDL: data definition language-linguagem de definição de dados. define a estrutura e esquema do banco. os comando mais usados são ''CREATE, ALTER, DROP''. Comandos que alteram a definição dos meus dados.
+DDL: data definition language-linguagem de definição de dados. define a estrutura e esquema do banco. os comando mais usados são `CREATE, `ALTER, DROP`. Comandos que alteram a definição dos meus dados.
 
-DML: data manipulation language-linguagem de manipulação de dados. fazem o gerenciamento dos meus dados no banco. Comandos mais usados são ''SELECT, INSERT, UPDATE, DELETE, CALL''. 
+DML: data manipulation language-linguagem de manipulação de dados. fazem o gerenciamento dos meus dados no banco. Comandos mais usados são `SELECT, INSERT, UPDATE, DELETE, CALL`. 
 
 DCL: data control language. controle de permissão do banco. usados por DBAs. Comandos usados GRANT e REVOKE.
 
