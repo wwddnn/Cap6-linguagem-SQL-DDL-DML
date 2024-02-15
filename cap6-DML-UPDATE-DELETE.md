@@ -1,5 +1,7 @@
 # SQL: DML - UPDATE.
+
 Altera os dados específicos de uma tabela.
+
 `
 UPDATE table_name SET column = new_value WHERE predicate; 
 `
