@@ -1,7 +1,7 @@
 ## Criação das tabelas abaixo, usando o comando CREATE TABLE:
-### para excluir qualquer tabela, usar o comando DROP TABLE:
+> para excluir qualquer tabela, usar o comando DROP TABLE:
 
-obs. as tabelas a seguir foram criadas no banco de dados Postgre, usando PgAdmin:
+> As tabelas a seguir foram criadas no banco de dados PostgreSQL, usando PgAdmin4:
 
 CREATE TABLE tb_cargo (
 	id INT PRIMARY KEY,

@@ -1,18 +1,22 @@
 
-# SQL: DDL - DROP.
+# SQL: DDL - DROP
 Esse comando apaga a estrutura de um banco de dados, tabela, visão, etc.
-
+> Sintaxe:
 DROP { DATABASE | TABLE };
 
 ## REMOVER UMA TABELA OU DATABASE:
-### Remove uma tabela: obs. vai deletar a tabela tb_funcionario.
+Remove uma tabela: obs. vai deletar a tabela tb_funcionario.
 DROP TABLE tb_funcionario;
  
-### Remove uma database: obs. vai deletar o banco de dados empresa.
+## Remove uma database: vai deletar o banco de dados empresa.
 DROP DATABASE empresa;
 
+
+
+******************************************************************************
+
 # SQL: DDL - ALTER.
-## ALTERAR COM COMANDO ALTER:
+### ALTERAR COM COMANDO ALTER:
 Altera a estrutura da tabela. criar um novo campo, remover um campo, definir um campo com chave primária, etc.
 
 ### ADICIONA E REMOVE UMA NOVA COLUNA PARA A TABELA: obs. vai adicionar uma coluna na tabela.
