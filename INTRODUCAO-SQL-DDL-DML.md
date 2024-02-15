@@ -27,12 +27,24 @@ DROP
 DML: data manipulation language-linguagem de manipulação de dados. fazem o gerenciamento dos meus dados no banco. Comandos mais usados são 
 
 ```
-SELECT, INSERT, UPDATE, DELETE, CALL
+SELECT, 
+INSERT, 
+UPDATE, 
+DELETE, 
+CALL
 ```
 
-DCL: data control language. controle de permissão do banco. usados por DBAs. Comandos usados GRANT e REVOKE.
+DCL: data control language. controle de permissão do banco. usados por DBAs. Comandos usados 
 
-TCL: transaction control. gerencia as mudanças feitas por comandos DML. Comandos usados COMMIT, SAVEPOINT, ROLLBACK.
+```
+GRANT e REVOKE.
+```
+
+TCL: transaction control. gerencia as mudanças feitas por comandos DML. Comandos usados 
+
+```
+COMMIT, SAVEPOINT, ROLLBACK.
+```
 
 Obs. foco das próximas aulas será a DDL e DML.
 
