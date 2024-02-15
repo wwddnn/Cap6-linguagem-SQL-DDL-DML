@@ -3,19 +3,24 @@ Caso deseje excluir qualquer tabela, usar o comando DROP TABLE:
 
 As tabelas a seguir foram criadas no banco de dados PostgreSQL, usando PgAdmin4:
 
-''' CREATE TABLE tb_cargo (
+`
+CREATE TABLE tb_cargo (
 	id INT PRIMARY KEY,
 	nome VARCHAR(20) NOT NULL,
 	nivel VARCHAR(10),
 	salario FLOAT
 );
+`
 
+`
 CREATE TABLE tb_departamento (
 	id INT PRIMARY KEY,
 	nome VARCHAR(20) NOT NULL,
 	sigla VARCHAR(10)
 );
+`
 
+`
 CREATE TABLE tb_funcionario (
 	id INT,
 	nome VARCHAR(30) NOT NULL,
@@ -27,4 +32,4 @@ CREATE TABLE tb_funcionario (
 	FOREIGN KEY(cod_cargo) REFERENCES tb_cargo(id),
 	FOREIGN KEY(cod_depto) REFERENCES tb_departamento(id)
 );
-'''
+`
