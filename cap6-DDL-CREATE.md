@@ -75,7 +75,7 @@ FORMA1:
 
 vou ter um campo id que é do tipo serial ou seja é auto incrementável. esse campo id é um campo PRIMARY KEY.
 
-´
+`
 CREATE TABLE cliente (
 	id serial PRIMARY KEY
 );
