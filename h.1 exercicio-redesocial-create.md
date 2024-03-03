@@ -10,7 +10,7 @@ CREATE TABLE tb_usuario(
 	nascimento DATE,
 	website VARCHAR(60),
 	genero CHAR(1) NOT NULL,
-	telefone VARCHAR(12) ,
+	telefone VARCHAR(12),
 	foto_de_perfil_id VARCHAR(60)
 );
 
